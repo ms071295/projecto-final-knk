@@ -5,7 +5,7 @@ html{
     padding: 0;
     margin: 0.5rem;
 }
-.colorNaranja, .colorNaranja nav ul li a{
+.colorNaranja {
     color: orange;
 }
 
@@ -17,6 +17,13 @@ body main img{
     opacity: 1; 
     visibility: inherit; 
     z-index: 20;
+}
+
+.menu{
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    margin: 0 0.3rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 header nav ul li{
@@ -72,27 +79,16 @@ background-image: linear-gradient(315deg, #f6d327 0%, #de4daa 74%);
 }
 
 .map-responsive{
-
     overflow:hidden;
-
     padding-bottom:40%;
-
     position:relative;
-
     height:0;
-
 }
 
 .map-responsive iframe{
-
     left:0;
-
     top:0;
-
     height:100%;
-
     width:100%;
-
     position:absolute;
-
 }
