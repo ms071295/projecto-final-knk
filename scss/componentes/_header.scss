@@ -8,13 +8,14 @@
                 ul{
                     li{
                         display: inline-block;
-                        border: 1px ridge chocolate;
+                        // border: 1px ridge chocolate;
                         padding: 0.3rem 0.8rem;
                         margin: 0 0.3rem;
-                        background-color: white;
-                        font-family: 'Oswald', sans-serif;
+                        // background-color: white;
+                        // font-family: 'Oswald', sans-serif;
                         font-size: 1.5rem;
                         align-items: right;
+                        @extend %extend
                         &:hover{
                             text-decoration: underline;
                         }
