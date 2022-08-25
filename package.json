@@ -15,10 +15,9 @@
     "url": "https://github.com/ms071295/projecto-final-knk/issues"
   },
   "homepage": "https://github.com/ms071295/projecto-final-knk#readme",
-  "dependencies": {
+  "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
   },
-  "devDependencies": {},
   "description": ""
 }
