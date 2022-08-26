@@ -35,10 +35,12 @@ body main h1 h2 {
 }
 body main p {
   font-family: "Source Serif Pro", serif;
+  font-size: medium;
 }
 
 footer h3 {
   font-family: "Source Serif Pro", serif;
+  font-weight: bolder;
 }
 footer a {
   text-decoration: none;
